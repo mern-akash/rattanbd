@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RattanBD</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+<body>
+    <!-- loding animation -->
+    <div id="preloader"></div>
+    <header id="header">
+        <div id="top2">
+            <div id="search">
+                <a href="#"><img id="searchGif" src="images/search.png" alt="search"></a>
+                <h1>RattanBD</h1>
+                <a href="#"><img src="images/account.png" alt="account"></a>
+                <a href="#"> <img src="images/card.png" alt="card"></a>
+            </div>
+        </div>
+        <nav>
+            <ul class="sidebar">
+                <li onclick="hideSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="30px" fill="#e8eaed"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></svg></a></li>
+                <li><a href="index.html">RattanBD</a></li>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="./HTML/allproduct.html">CATEGORIES</a></li>
+                <li><a href="./HTML/room.html">ROOM</a></li>
+                <li><a href="./HTML/inspaction.html">INSPIRATION</a></li>  
+            </ul>
+            <ul>
+                <li><a href="index.html">RattanBD</a></li>
+                <li class="hideOnMobile"><a href="index.html">HOME</a></li>
+                <li class="hideOnMobile"><a href="./HTML/allproduct.html">CATEGORIES</a></li>
+                <li class="hideOnMobile"><a href="./HTML/room.html">ROOM</a></li>
+                <li class="hideOnMobile"><a href="./HTML/inspaction.html">INSPIRATION</a></li>
+                <li class="hideOnPc" onclick="showSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="30px" fill="#e8eaed"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+            </ul>
+        </nav>  
+    </header>
+    <main>
+        <section id="section">
+            <div id="sale">
+                <h1>Summer Sale</h1>
+                <a href="./HTML/allproduct.html"><button class="btn btn2" href="#">shop now →</button></a>
+            </div>
+        </section>
+        <section id="section1">
+            <div class="section1">
+                <div class="box">
+                    <p class="discount">-58%</p>
+                    <a href="./HTML/product.html">
+                        <img src="images/products/r1.jpg" alt="">
+                        <p>Rattan bottol holder</p>
+                        <p>price:1,199 ৳</p>
+                    </a>    
+                </div>
+                <div class="box">
+                    <p class="discount">-54%</p>
+                    <a href="./HTML/product.html">
+                        <img src="images/products/r2.png" alt="">
+                        <p>Rattan box</p>
+                        <p>price: 2,999 ৳</p>
+                    </a>    
+                </div>
+                <div class="box">
+                    <p class="discount">-55%</p>
+                    <a href="./HTML/product.html">
+                        <img src="images/products/r3.jpg" alt="">
+                        <p>Rattan kitchen basket</p>
+                        <p>price: 699 ৳</p>
+                    </a>
+                </div>
+                <div class="box">
+                    <p class="discount">-35%</p>
+                    <a href="./HTML/product.html">
+                        <img src="images/products/r4.jpg" alt="">
+                        <p>Rattan round cylinder</p>
+                        <p>price: 650 ৳</p>
+                    </a>
+                </div>
+            </div>    
+            <a href="./HTML/allproduct.html"><button class="btn btn2" id="seeAll" href="#">SEE ALL</button></a>
+        </section>
+        <section id="section2">
+            <div class="main-div">
+                <div class="col1">
+                    <img src="images/dalivery.png" alt="">
+                    <p>Fast delivery within 1-3 working days</p>
+                </div>
+                <div class="col2">
+                    <img src="images/gift.png" alt="">
+                    <p>Free dalivery with purchess from 2,000 Tk</p>
+                </div>
+                <div class="col3">
+                    <img src="images/favourite.png" alt="">
+                    <p>We are ready to help at +880 1732 19 27 50</p>
+                </div>
+            </div>    
+        </section>
+        <section id="section3">
+            <h1>Our collection</h1>
+            <div class="section3">
+                <div class="boxcol">
+                    <a href="./HTML/allproduct.html"><img src="images/products/furniture.jpg" alt=""></a>
+                    <a href="./HTML/allproduct.html"><button class="btn btn2" class="see" href="#">furniture →</button></a>
+                </div>
+                <div class="boxcol">
+                    <a href="./HTML/allproduct.html"><img src="images/products/baskets.jpg" alt=""></a>
+                    <a href="./HTML/allproduct.html"><button class="btn btn2" class="see" href="#">baskets →</button></a>
+                </div>
+                <div class="boxcol">
+                    <a href="./HTML/allproduct.html"><img src="images/products/kitchen.jpg" alt=""></a>
+                    <a href="./HTML/allproduct.html"><button class="btn btn2" class="see" href="#">kitchen →</button></a>
+                </div>
+            </div>    
+        </section>
+        <section id="section4">
+            <h1>Most popular news</h1>
+            <div class="section4">
+                <div class="boxs">
+                    <a href="./HTML/product.html">
+                        <img src="images/products/r5.jpg" alt="">
+                        <p>Hogla cylinder basket</p>
+                        <p>price: 499 ৳</p>
+                    </a>    
+                </div>
+                <div class="boxs">
+                    <a href="./HTML/product.html">
+                        <img src="images/products/r6.jpg" alt="">
+                        <p>Water hyacinth Basket</p>
+                        <p>price: 999 ৳</p>
+                   </a>
+                </div>
+                <div class="boxs">
+                    <a href="./HTML/product.html">
+                        <img src="images/products/r7.jpg" alt="">
+                        <p>Rattan Sofa F106</p>
+                        <p>price: 7,999 ৳</p>
+                    </a>    
+                </div>
+                <div class="boxs">
+                    <a href="./HTML/product.html">
+                        <img src="images/products/r8.jpg" alt="">
+                        <p>Rattan Baby-chair F103</p>
+                        <p>price: 4,499 ৳</p>
+                    </a>    
+                </div>
+            </div>  
+            <a href="./HTML/allproduct.html"><button class="btn btn2" id="seeAlls" href="#">SEE ALL</button></a>
+        </section>
+    </main>
+    <footer id="footer">
+        <div id="footerDiv">
+            <div class="footerDiv">
+                <h3>Customer service</h3>
+                <p>Contact</p>
+                <p>FAQ</p>
+                <p>Freight & delivary</p>
+                <p>Right of withdrawal & return</p>
+                <p>Trading condition</p>
+                <p>Competition conditions</p>
+                <p>Personal data policy</p>
+                <p>B2B login</p>
+                <p>Career</p>
+                <p>Press</p>
+            </div> 
+            <div class="footerDiv">
+                <h3>Our brands</h3>
+                <p>RattanBD</p>
+                <p>mern-akash</p>
+                <p>by AKASH</p>
+            </div>
+            <div id="payment">
+                <h3>Payment methods</h3>
+                <img src="images/master-card.png" alt="">
+                <img src="images/visa.png" alt="">
+                <img src="images/paypal.png" alt="">
+                <img src="images/apple-pay.png" alt="">
+                <img src="images/google-pay.png" alt="">
+                <img src="images/american-express.png" alt="">
+            </div>
+        </div>
+        <div id="footerBottom">
+            <a id="copyright" href="#">&copy; 2024 rattanbd.com || by AKASH</a> 
+        </div>
+     </footer>
+     <!-- javascript -->
+    <script src="./JS/script.js"></script>
+</body>
+</html>
